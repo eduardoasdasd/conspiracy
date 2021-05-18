@@ -1,0 +1,52 @@
+.body{
+    background-color: yellow;
+}
+
+.div-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin:5px;
+    text-align: center;
+
+}
+
+
+.label-input-cons{
+    margin-bottom: 10px;       
+}
+
+.input-cons{
+    width:100%
+}
+
+.div-register{
+    color:white;
+}
+
+
+@media only screen and (max-width: 810px) {
+    
+    .card{
+    width:10%;
+    
+    }
+    .img-card{
+    width:10%;
+    }
+
+    .div-card{
+        width: 10%;
+        background-color: blue;
+    }
+
+    .conspiracion-title{
+        color: orangered;
+    }
+
+    .body{
+        background-color: black;
+    }
+
+}

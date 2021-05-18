@@ -1,0 +1,41 @@
+body{
+    background-image: url('../images/Universe.jpg');
+}
+
+.intro-container{
+    display: flex;
+    width: 100%;
+    height:auto;
+    border: 10px solid black;
+}
+
+.astro-container{
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+    border: 10px solid orangered;
+    transition: width 2s;
+
+    
+}
+
+
+
+.text-intro-container{
+    display:none;
+    
+    width: 300px;
+    height: auto;
+    color: white;
+    margin-left: 40px;
+    border: 1px solid white;
+    padding-top: 40px;
+    transition: all 4s;
+    
+    
+}
+
+.img-astro{
+    display: flex;
+    border: 1px solid black;
+}
