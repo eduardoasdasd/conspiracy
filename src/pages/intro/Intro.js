@@ -1,6 +1,6 @@
-import { Button } from 'primereact/button'
+
 import { useEffect, useState } from 'react'
-import astro from '../images/astro.png'
+import astro from '../../images/astro.png'
 //import './js/jquery.svg3dtagcloud.min.js'
 import './intro.css'
 

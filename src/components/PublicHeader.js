@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Header = () => {
+const PublicHeader = () => {
   
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,10 +12,10 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-              <Link className="navbar-brand" to="/newConspiracy" >Nueva conspiracion</Link>
+              <Link className="navbar-brand" to="/" >Login</Link>
               </li>
               <li className="nav-item">
-              <Link className="navbar-brand" to="/" >Logout</Link>
+              <Link className="navbar-brand" to="/register" >Registro</Link>
               </li>
             </ul>
             <form className="d-flex">
@@ -27,4 +27,4 @@ const Header = () => {
       </nav>
   )
 }
-export default Header;
+export default PublicHeader;
